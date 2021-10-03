@@ -1,0 +1,34 @@
+//This is the home section
+.section__home {
+  width: 45%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  //margin-left: 25rem;
+  // display: column;
+  // margin-top: 1.5rem;
+  // margin-left: auto;
+  padding-bottom: 5rem;
+  &-intro-title {
+    font-size: $fs-h2;
+  }
+  &-intro-img {
+    width: 620px;
+    height: 750px;
+  }
+
+  &--para {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .section__home {
+    &-intro-title {
+      height: 10rem;
+    }
+    &--btn {
+      max-width: 50%;
+    }
+  }
+}
